@@ -1,0 +1,275 @@
+.header{
+    background-image: url(wall.jpg);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+}
+.Matches{
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    color: white;
+    position: absolute;
+    right: 50px;
+    font-weight: bold;
+}
+.Table{
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    position: absolute;
+    right: 150px;
+    color: white;
+    font-weight: bold;
+}
+.body{
+    margin-left: 20px;
+    display: flex;
+    
+}
+.Tabelle{
+    position: relative;
+    height: 500px;
+    width: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 20px;
+}
+.component1{
+    position: relative;
+    margin: 10px;
+    background-color: whitesmoke;
+    height: 8%;
+    width: 350px;
+    padding-top: 25px;
+    padding-left: 10px;
+    display: flex;
+}
+.Games{
+    position: absolute;
+    right: 50px;
+    font-weight: 400;
+}
+.pk{
+    position: absolute;
+    right: 20px;
+    font-weight: 900;
+ }
+ .Sieg{
+    position: absolute;
+    right: 140px;
+    font-weight: 400;
+ }
+ .Nied{
+    position: absolute;
+    right: 80px;
+    font-weight: 400;
+ }
+ .Unent{
+    position: absolute;
+    right: 110px;
+    font-weight: 400;
+ }
+.component{
+    position: relative;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 20px;
+    height: 8%;
+    width: 350px;
+    padding-top: 25px;
+    padding-left: 10px;
+    display: flex;
+}
+
+h1{
+    margin: 10px;
+    font-size: x-large;
+    font-weight: 900;
+}
+.wappen{
+    position: absolute;
+    right: 200px;
+    margin-top: -8px;
+}
+.feld{
+    margin-left: 100px;
+    position: relative;
+}
+
+.h1{
+    display: flex;
+}
+.Aufstellung{
+    margin-left: 520px;
+
+}
+.TW{
+    position: absolute;
+    left: 380px;
+    bottom: 60px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    
+}
+.IV1{
+    position: absolute;
+    left: 250px;
+    bottom: 120px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.IV2{
+    position: absolute;
+    left: 530px;
+    bottom: 120px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;    
+    
+}
+.LV{
+ 
+    position: absolute;
+    left: 100px;        
+    bottom: 150px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.RV{
+    
+    position: absolute;
+    left: 680px;
+    bottom: 150px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.LCM{
+    position: absolute;
+    left: 240px;
+    bottom: 290px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.CM{
+    position: absolute;
+    left: 380px;
+    bottom: 250px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.RCM{
+    position: absolute;
+    left: 540px;
+    bottom: 290px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.LF{
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.RF{
+    position: absolute;
+    left: 580px;
+    bottom: 400px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    
+}
+.ST{
+    position: absolute;
+    left: 0;
+    right:0;
+    margin:auto;
+    width:140px;
+    bottom: 420px;
+    font-weight: 900;
+    font-size: larger;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+.Matches{
+    height: 700px;
+    width: 700px;
+    background-color: aqua;
+}
