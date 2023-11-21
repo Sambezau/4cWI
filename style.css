@@ -1,4 +1,4 @@
-.header{
+.header {
     background-image: url(wall.jpg);
     height: 150px;
     width: 100%;
@@ -7,13 +7,15 @@
     position: relative;
 
 }
-.logo{
+
+.logo {
     height: 100px;
     width: 100px;
     position: absolute;
     left: 20px;
 }
-.Matches{
+
+.Matches {
     height: 50px;
     width: 100px;
     font-size: large;
@@ -22,7 +24,8 @@
     right: 50px;
     font-weight: bold;
 }
-.Table{
+
+.Table {
     height: 50px;
     width: 100px;
     font-size: large;
@@ -30,13 +33,21 @@
     right: 150px;
     color: white;
     font-weight: bold;
+
 }
-.body{
+
+.component:hover {
+    background-color: red;
+}
+
+.body {
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
+
 }
-.Tabelle{
+
+.Tabelle {
     position: relative;
     height: 500px;
     width: 400px;
@@ -44,8 +55,11 @@
     border-color: black;
     border-width: 3px;
     border-radius: 20px;
+    padding-bottom: 10px;
+    overflow-y: scroll;
 }
-.component1{
+
+.component1 {
     position: relative;
     margin: 10px;
     background-color: whitesmoke;
@@ -55,33 +69,39 @@
     padding-left: 10px;
     display: flex;
 }
-.Games{
+
+.Games {
     position: absolute;
     right: 50px;
     font-weight: 400;
-    
+
 }
-.pk{
+
+.pk {
     position: absolute;
     right: 20px;
     font-weight: 900;
- }
- .Sieg{
+}
+
+.Sieg {
     position: absolute;
     right: 140px;
     font-weight: 400;
- }
- .Nied{
+}
+
+.Nied {
     position: absolute;
     right: 80px;
     font-weight: 400;
- }
- .Unent{
+}
+
+.Unent {
     position: absolute;
     right: 110px;
     font-weight: 400;
- }
-.component{
+}
+
+.component {
     position: relative;
     margin: 10px;
     background-color: whitesmoke;
@@ -96,30 +116,36 @@
     display: flex;
 }
 
-h1{
+h1 {
     margin: 10px;
     font-size: x-large;
     font-weight: 900;
 }
-.wappen{
+
+.wappen {
     position: absolute;
     right: 200px;
     top: 17px;
-    
+
 }
-.feld{
+
+.feld {
     margin-left: 100px;
     position: relative;
 }
 
-.h1{
+.h1 {
     display: flex;
 }
-.Aufstellung{
+
+.Aufstellung {
     margin-left: 520px;
 
 }
-.TW{
+.SUNSP{
+    margin-left: 0px;
+}
+.TW {
     position: absolute;
     left: 380px;
     bottom: 60px;
@@ -131,9 +157,10 @@ h1{
     border-style: solid;
     border-color: black;
     background-color: black;
-    
+
 }
-.IV1{
+
+.IV1 {
     position: absolute;
     left: 250px;
     bottom: 120px;
@@ -146,7 +173,8 @@ h1{
     border-color: black;
     background-color: black;
 }
-.IV2{
+
+.IV2 {
     position: absolute;
     left: 530px;
     bottom: 120px;
@@ -157,13 +185,14 @@ h1{
     border-radius: 10px;
     border-style: solid;
     border-color: black;
-    background-color: black;    
-    
+    background-color: black;
+
 }
-.LV{
- 
+
+.LV {
+
     position: absolute;
-    left: 100px;        
+    left: 100px;
     bottom: 150px;
     font-weight: 900;
     font-size: larger;
@@ -174,8 +203,9 @@ h1{
     border-color: black;
     background-color: black;
 }
-.RV{
-    
+
+.RV {
+
     position: absolute;
     left: 680px;
     bottom: 150px;
@@ -188,7 +218,8 @@ h1{
     border-color: black;
     background-color: black;
 }
-.LCM{
+
+.LCM {
     position: absolute;
     left: 240px;
     bottom: 290px;
@@ -201,7 +232,8 @@ h1{
     border-color: black;
     background-color: black;
 }
-.CM{
+
+.CM {
     position: absolute;
     left: 380px;
     bottom: 250px;
@@ -214,7 +246,8 @@ h1{
     border-color: black;
     background-color: black;
 }
-.RCM{
+
+.RCM {
     position: absolute;
     left: 540px;
     bottom: 290px;
@@ -227,7 +260,8 @@ h1{
     border-color: black;
     background-color: black;
 }
-.LF{
+
+.LF {
     position: absolute;
     left: 200px;
     bottom: 400px;
@@ -240,7 +274,8 @@ h1{
     border-color: black;
     background-color: black;
 }
-.RF{
+
+.RF {
     position: absolute;
     left: 580px;
     bottom: 400px;
@@ -252,14 +287,15 @@ h1{
     border-style: solid;
     border-color: black;
     background-color: black;
-    
+
 }
-.ST{
+
+.ST {
     position: absolute;
     left: 0;
-    right:0;
-    margin:auto;
-    width:140px;
+    right: 0;
+    margin: auto;
+    width: 140px;
     bottom: 420px;
     font-weight: 900;
     font-size: larger;
@@ -270,41 +306,50 @@ h1{
     border-color: black;
     background-color: black;
 }
-.Matches1{
+
+.Matches1 {
     position: relative;
-    height: 200px;
+    height: 150px;
     width: 100%;
     border-style: solid;
     border-color: black;
     display: flex;
     gap: 100px;
 }
-.componentTable{
+
+.componentTable {
     position: relative;
     margin: 10px;
     border-style: solid;
     border-color: black;
     border-width: 3px;
     border-radius: 20px;
-    height: 90px;
+    height: 70px;
     width: 1000px;
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 10px;
     display: flex;
     font-size: x-large;
     font-weight: bolder;
-    
+
 
 }
-.wappenMatch{
+
+.wappenMatch {
     position: absolute;
     right: 50px;
-    margin-top: px;   
+    margin-top: px;
 }
-.vs{
-    margin: 10px;
+
+.vs {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 5ch;
+    margin-top: 30px;
 }
-.Matchbox{
+
+.Matchbox {
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
@@ -312,10 +357,27 @@ h1{
     margin: 20px;
     height: 100%;
 }
-h1{
+
+
+
+div {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
-div{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.wholetable {
+    color: blue;
+    text-decoration-line: underline;
+    width: 200px;
+    margin-left: 100px;
+
+}
+
+.overlay{
+    position: absolute;
+    display: none;
+    width: 80vw;
+    height: 80vh;
+    top:0;
+    left:0;
+    background-color: aqua;
 }

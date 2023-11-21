@@ -8,7 +8,19 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+<script>
+    function showPopup() {
+        document.getElementById('overlay').style.display = 'block';
+        document.getElementById('popup').style.display = 'block';
+    }
+
+    function hidePopup() {
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('popup').style.display = 'none';
+    }
+</script>
 
 <body>
     <div class="header">
@@ -19,25 +31,21 @@
 
     </div>
 
-    <div class="h1">
+    
 
         <div class="Aufstellung">
             <h1>Aufstellung FC Barcelona:</h1>
-        </div>
-        <h1>
-    </div>
+         </div>
+         <div class="SUNSP"><h1>Tabelle</h1></div>
+
+    
+    
 
     <div class="body">
+        
 
-        <div class="Tabelle">
-            <div class="component1">
-                <h1>Tabelle</h1>
-                <div class="Games">SP</div>
-                <div class="Sieg">S</div>
-                <div class="Unent">U</div>
-                <div class="Nied">N</div>
-                <div class="pk">P</div>
-            </div>
+        <div class="Tabelle" id="table">
+            
             <div class="component">FC Barcelona
                 <div class="wappen"><img src="Barca.png" alt="" height="35px" width="35px"></div>
                 <div class="pk">20</div>
@@ -62,6 +70,7 @@
                 <div class="Sieg">3</div>
                 <div class="Unent">2</div>
                 <div class="Nied">1</div>
+               
             </div>
             <div class="component">FC Sevilla<div class="wappen"><img src="Sevilla.png" alt="" height="35px"
                         width="35px"></div>
@@ -79,6 +88,7 @@
                 <div class="Unent">0</div>
                 <div class="Nied">3</div>
             </div>
+            <div class="wholetable" id="showTable">Ganze Tabelle ansehen</div>
         </div>
         <div class="feld"><img src="spielfeld.jpg" alt="" height="500px">
             <div class="TW">1. Ter Stegen</div>
@@ -100,7 +110,9 @@
 
     </div>
 
-
+    <div class="overlay" id="overlay">
+        Overlay
+    </div>
 </body>
 
 </html>
