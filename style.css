@@ -27,10 +27,10 @@
 
 .Table {
     height: 50px;
-    width: 100px;
+    width: 200px;
     font-size: large;
     position: absolute;
-    right: 150px;
+    right: 130px;
     color: white;
     font-weight: bold;
 
@@ -49,7 +49,10 @@
 
 .Tabelle {
     position: relative;
-    height: 500px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 600px;
     width: 400px;
     border-style: solid;
     border-color: black;
@@ -132,6 +135,8 @@ h1 {
 .feld {
     margin-left: 100px;
     position: relative;
+    margin-top: 50px;
+
 }
 
 .h1 {
@@ -143,12 +148,13 @@ h1 {
 
 }
 .SUNSP{
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-top: -40px;
 }
 .TW {
     position: absolute;
     left: 380px;
-    bottom: 60px;
+    bottom: 130px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -163,7 +169,7 @@ h1 {
 .IV1 {
     position: absolute;
     left: 250px;
-    bottom: 120px;
+    bottom: 190px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -177,7 +183,7 @@ h1 {
 .IV2 {
     position: absolute;
     left: 530px;
-    bottom: 120px;
+    bottom: 190px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -193,7 +199,7 @@ h1 {
 
     position: absolute;
     left: 100px;
-    bottom: 150px;
+    bottom: 220px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -208,7 +214,7 @@ h1 {
 
     position: absolute;
     left: 680px;
-    bottom: 150px;
+    bottom: 220px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -222,7 +228,7 @@ h1 {
 .LCM {
     position: absolute;
     left: 240px;
-    bottom: 290px;
+    bottom: 360px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -236,7 +242,7 @@ h1 {
 .CM {
     position: absolute;
     left: 380px;
-    bottom: 250px;
+    bottom: 320px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -250,7 +256,7 @@ h1 {
 .RCM {
     position: absolute;
     left: 540px;
-    bottom: 290px;
+    bottom: 360px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -264,7 +270,7 @@ h1 {
 .LF {
     position: absolute;
     left: 200px;
-    bottom: 400px;
+    bottom: 470px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -278,7 +284,7 @@ h1 {
 .RF {
     position: absolute;
     left: 580px;
-    bottom: 400px;
+    bottom: 470px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -296,7 +302,7 @@ h1 {
     right: 0;
     margin: auto;
     width: 140px;
-    bottom: 420px;
+    bottom: 490px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -316,16 +322,52 @@ h1 {
     display: flex;
     gap: 100px;
 }
-
-.componentTable {
+.Matches2 {
     position: relative;
-    margin: 10px;
+    height: 150px;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    gap: 100px;
+}
+.Matches3 {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    gap: 100px;
+}
+
+.componentTable1 {
+    position: absolute;
+    left: 20px;
     border-style: solid;
     border-color: black;
     border-width: 3px;
     border-radius: 20px;
     height: 70px;
-    width: 1000px;
+    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    display: flex;
+    font-size: x-large;
+    font-weight: bolder;
+
+
+}
+.componentTable2 {
+    position: absolute;
+    right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 20px;
+    height: 70px;
+    width: 40%;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
@@ -343,10 +385,18 @@ h1 {
 }
 
 .vs {
-    margin-left: 100px;
-    margin-right: 100px;
+    position: absolute;
+    left: 48%;
     font-size: 5ch;
     margin-top: 30px;
+}
+.score{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: small;
+
+
 }
 
 .Matchbox {
@@ -364,14 +414,6 @@ div {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.wholetable {
-    color: blue;
-    text-decoration-line: underline;
-    width: 200px;
-    margin-left: 100px;
-
-}
-
 .overlay{
     position: absolute;
     display: none;
@@ -380,4 +422,16 @@ div {
     top:0;
     left:0;
     background-color: aqua;
+}
+.scorer1{
+    position: absolute;
+    font-size: medium;
+    bottom: 20px;
+    left: 30px;
+}
+.scorer2{
+    position: absolute;
+    font-size: medium;
+    bottom: 20px;
+    left: 30px;
 }

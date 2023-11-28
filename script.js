@@ -1,10 +1,3 @@
-document.getElementById("showTable").addEventListener("click", function(){
-    var element = document.getElementById("overlay");
-    element.style.display = "block"
-    console.log(element);
-})
-
-
 function loadMatches(){
 
     fetch('https://api.openligadb.de/getbltable/laliga1/2023')
