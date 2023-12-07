@@ -10,12 +10,12 @@ function fillGames(data) {
     console.log(data);
     
     let output = '<div class="Matches1" id="games">' +
-    '<div class="componentTable1">'+ data.team1.teamName +'' +
+    '<div class="componentTable1"><a href="Laliga.html" style="color: black;">'+ data.team1.teamName +'</a>' +
     '<div class="wappenMatch"><img src="'+ data.team1.teamIconUrl +'" alt="" height="60px" width="60px"></div>' +
     '<div class="score">' + data.goals[0].goalGetterName +','+ data.goals[0].matchMinute +' </div>' +
     '</div>' +
     '<div class="vs">'+ data.goals[2].scoreTeam1 + ':'+ data.goals[2].scoreTeam2 + '</div>' +
-    '<div class="componentTable2">'+ data.team2.teamName +'' +
+    '<div class="componentTable2"><a href="Laliga2.html" style="color: black;">'+ data.team2.teamName +'</a>' +
     '<div class="wappenMatch"><img src="'+ data.team2.teamIconUrl +'" alt="" height="60px" width="60px"></div>' +
     '<div class="score">' + data.goals[1].goalGetterName +','+ data.goals[1].matchMinute +','+ data.goals[2].matchMinute +''
     '</div>' +

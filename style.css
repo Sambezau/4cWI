@@ -39,6 +39,12 @@
 .component:hover {
     background-color: red;
 }
+.componentTable1:hover {
+    background-color: red;
+}
+.componentTable2:hover {
+    background-color: red;
+}
 
 .body {
     margin-left: 20px;
@@ -52,7 +58,7 @@
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 600px;
+    height: 550px;
     width: 400px;
     border-style: solid;
     border-color: black;
@@ -72,11 +78,16 @@
     padding-left: 10px;
     display: flex;
 }
+.Uberschr{
+    position: absolute;
+    
+}
 
 .Games {
     position: absolute;
     right: 50px;
     font-weight: 400;
+    
 
 }
 
@@ -84,6 +95,7 @@
     position: absolute;
     right: 20px;
     font-weight: 900;
+    
 }
 
 .Sieg {
@@ -118,6 +130,15 @@
     padding-left: 10px;
     display: flex;
 }
+.WDL{
+    width: 400px;
+    height: 20px;
+    margin-left: -30px;
+    position: relative;
+    font-size: large;
+    font-weight: bolder;    
+    
+}
 
 h1 {
     margin: 10px;
@@ -135,7 +156,7 @@ h1 {
 .feld {
     margin-left: 100px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
 
 }
 
@@ -144,17 +165,16 @@ h1 {
 }
 
 .Aufstellung {
-    margin-left: 520px;
+    position: absolute;
+    top: -90px;
+    font-size: large;
 
 }
-.SUNSP{
-    margin-left: 10px;
-    margin-top: -40px;
-}
+
 .TW {
     position: absolute;
     left: 380px;
-    bottom: 130px;
+    bottom: 90px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -169,7 +189,7 @@ h1 {
 .IV1 {
     position: absolute;
     left: 250px;
-    bottom: 190px;
+    bottom: 150px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -183,7 +203,7 @@ h1 {
 .IV2 {
     position: absolute;
     left: 530px;
-    bottom: 190px;
+    bottom: 150px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -199,7 +219,7 @@ h1 {
 
     position: absolute;
     left: 100px;
-    bottom: 220px;
+    bottom: 180px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -214,7 +234,7 @@ h1 {
 
     position: absolute;
     left: 680px;
-    bottom: 220px;
+    bottom: 180px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -228,7 +248,7 @@ h1 {
 .LCM {
     position: absolute;
     left: 240px;
-    bottom: 360px;
+    bottom: 320px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -242,7 +262,7 @@ h1 {
 .CM {
     position: absolute;
     left: 380px;
-    bottom: 320px;
+    bottom: 280px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -256,7 +276,7 @@ h1 {
 .RCM {
     position: absolute;
     left: 540px;
-    bottom: 360px;
+    bottom: 320px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -270,7 +290,7 @@ h1 {
 .LF {
     position: absolute;
     left: 200px;
-    bottom: 470px;
+    bottom: 430px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -284,7 +304,7 @@ h1 {
 .RF {
     position: absolute;
     left: 580px;
-    bottom: 470px;
+    bottom: 430px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -302,7 +322,7 @@ h1 {
     right: 0;
     margin: auto;
     width: 140px;
-    bottom: 490px;
+    bottom: 450px;
     font-weight: 900;
     font-size: larger;
     color: white;
@@ -321,6 +341,7 @@ h1 {
     border-color: black;
     display: flex;
     gap: 100px;
+
 }
 .Matches2 {
     position: relative;
